@@ -28,10 +28,10 @@ posicao = deslocaCarro(posicao);
 
 
 void carro(float posX){
-int sizeX = height/5;
+int sizeX = height/30;
 int sizeY = height/60;
-ellipseMode(CENTER);
-ellipse(posX , height/2 , sizeX ,sizeX);
+
+rect(posX , height/2 , sizeX ,sizeY);
 }
 
 
